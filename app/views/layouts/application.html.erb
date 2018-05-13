@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Luna Works</title>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= stylesheet_link_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' %>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js' %>
+	<head>
+	  <title>Luna Works</title>
+	  	
+	  	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	  	<%= stylesheet_link_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' %>
+	  	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	  	<%= javascript_include_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js' %>
+		
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  	
+	  	<%= csrf_meta_tags %>
+	</head>
+	<body>
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <%= csrf_meta_tags %>
-</head>
-<body>
+		<!-- Header -->
+		<div class="container">
+		  <div style="background-color: #ffcc00" class="jumbotron">
+		    <h1>Luna Works<%= image_tag("icon_luna.png", size: "128x128", alt: "logo", class: "logo_icon") %></h1>
+		  </div> 
+		</div>
 
-<%= yield %>
+		<!-- Content -->
+		<%= yield %>
 
-</body>
+		<!-- Footer -->
+		<div class="container">
+		  <footer style="background-color: #ffcc00" class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+		    
+		    <h4>Siguenos</h4>
+		    <a class="w3-button w3-large w3-yellow" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+		    <a class="w3-button w3-large w3-yellow" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+		    <a class="w3-button w3-large w3-yellow" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+		    <a class="w3-button w3-large w3-yellow" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+		  </footer>
+		</div>
+
+	</body>
 </html>
