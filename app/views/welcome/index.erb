@@ -2,115 +2,181 @@
     <%= image_tag("b01.png", class: "banners") %>
 </div>
 
-<!-- PORTAFOLIO -->
+<!-- FLOW 3D PRINT PROCESS -->
 <div class="container">
   <div style="background-color: white" class="jumbotron">
-  
-    <h2>Diseño de cosplay, props y pintura</h2> 
-    <h5>Portafolio</h5>
+      
+    <div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+      
+      <h2>Proceso Impresión 3D y Trabajo</h2>
+    
+      <div class="w3-container w3-padding-64 w3-center">
 
-    <div class="w3-container w3-padding-64 w3-center">
+        <div class="w3-quarter">
+          <%= image_tag("stage1.png", size: "128x128", class: "w3-circle w3-hover-opacity") %>
+          <h3>Impresión 3D</h3>
+        </div>
 
-      <div class="w3-quarter">
-        <div class="w3-card w3-white">
-          <%= image_tag("fig_corpsebride.png", size: "192x256") %>
-          <div class="w3-container">
-            <h4>Tim Burton - Corpse Bride</h4>
-          </div>
+        <div class="w3-quarter">
+          <%= image_tag("stage2.png", size: "128x128", class: "w3-circle w3-hover-opacity") %>
+          <h3>Ensamble y sellado</h3>
+        </div>
+
+        <div class="w3-quarter">
+          <%= image_tag("stage3.png", size: "128x128", class: "w3-circle w3-hover-opacity") %>
+          <h3>Capa primer</h3>
+        </div>
+
+        <div class="w3-quarter">
+          <%= image_tag("stage4.png", size: "128x128", class: "w3-circle w3-hover-opacity") %>
+          <h3>Pintura base</h3>
         </div>
       </div>
 
-      <div class="w3-quarter">
-        <div class="w3-card w3-white">
-          <%= image_tag("fig_mina.png", size: "192x256") %>
-          <div class="w3-container">
-            <h4>Boku no Hero Academia - Mina</h4>
-          </div>
+      <div class="w3-container w3-padding-64 w3-center">
+        <div >
+          <%= image_tag("stage5.png", size: "256x256", class: "w3-circle w3-hover-opacity") %>
+          <h3>Pintura Arte</h3>
         </div>
-      </div>
 
-      <div class="w3-quarter">
-        <div class="w3-card w3-white">
-          <%= image_tag("fig_reaper.png", size: "192x256") %>
-          <div class="w3-container">
-            <h4>Overwatch - Reaper</h4>
-          </div>
-        </div>
-      </div>
-
-      <div class="w3-quarter">
-        <div class="w3-card w3-white">
-          <%= image_tag("fig_loki.png", size: "192x256") %>
-          <div class="w3-container">
-            <h4>Marvel - Loki</h4>
-          </div>
-        </div>
       </div>
 
     </div>
-
-    <div class="w3-container w3-padding-64 w3-center">
-
-      <div class="w3-quarter">
-        <div class="w3-card w3-white">
-          <%= image_tag("fig_widow.png", size: "192x256") %>
-          <div class="w3-container">
-            <h4>Overwatch - Widowmaker</h4>
-          </div>
-        </div>
-      </div>
-
-      <div class="w3-quarter">
-        <div class="w3-card w3-white">
-          <%= image_tag("fig_scissorhand.png", size: "192x256") %>
-          <div class="w3-container">
-            <h4>Tim Burton - Edward Scissorhand</h4>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
+    
   </div>
 </div>
 
+<div class="container">
+    <%= image_tag("b03.png", class: "banners") %>
+</div>
+
+<!-- FLOW ACTUAL WORKS -->
+<div class="container">
+  <div style="background-color: white" class="jumbotron">
+    
+    <div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+      <h2>Nuestro Equipo y Trabajo</h2>
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-hover-shadow">
+          <li class="w3-theme">
+            <p class="w3-xlarge">Impresora</p>
+          </li>
+          <li class="w3-padding-16"><b>Modelo</b> CR-10</li>
+          <li class="w3-padding-16"><b>Material</b> PLA</li>
+          <li class="w3-padding-16"><b>Dimensión</b> 30x30x40 (cm)</li>
+          <li class="w3-padding-16">
+            <%= image_tag("work04.png", size: "256x128", class: "w3-hover-opacity") %>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-hover-shadow">
+          <li class="w3-theme-l2">
+            <p class="w3-xlarge">Formato Modelo</p>
+          </li>
+          <li class="w3-padding-16"><b>STL</b></li>
+          <li class="w3-padding-16"><b>OBJ</b></li>
+          <li class="w3-padding-16"><b>GCODE</b></li>
+          <li class="w3-padding-16">
+            <%= image_tag("work02.png", size: "256x128", class: "w3-hover-opacity") %>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-hover-shadow">
+          <li class="w3-theme">
+            <p class="w3-xlarge">Funcional</p>
+          </li>
+          <li class="w3-padding-16"><b>Prototipos</b></li>
+          <li class="w3-padding-16"><b>Props</b></li>
+          <li class="w3-padding-16"><b>Decoración</b></li>
+          <li class="w3-padding-16">
+            <%= image_tag("work01.png", size: "256x128", class: "w3-hover-opacity") %>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</div>
 
 <div class="container">
     <%= image_tag("b02.png", class: "banners") %>
 </div>
 
-<!-- FLOW 3D PRINT PROCESS -->
+<!-- PORTAFOLIO -->
 <div class="container">
   <div style="background-color: white" class="jumbotron">
-      
-    <h5>Impresiones 3D</h5>
-    
-    <div class="w3-container w3-padding-64 w3-center">
 
-      <div class="w3-row"><br>
+    <div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+      <h2>Portafolio</h2>
 
-      <div class="w3-quarter">
-        <%= image_tag("stage1.png", size: "128x128", class: "w3-circle w3-hover-opacity") %>
-        <h3>Impresión 3D</h3>
+      <div class="w3-container w3-padding-64 w3-center">
+
+        <div class="w3-quarter">
+          <div class="w3-card w3-white">
+            <%= image_tag("fig_corpsebride.png", size: "192x256") %>
+            <div class="w3-container card-title-min">
+              <h4>Tim Burton - Corpse Bride</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-quarter">
+          <div class="w3-card w3-white">
+            <%= image_tag("fig_mina.png", size: "192x256") %>
+            <div class="w3-container card-title-min">
+              <h4>Boku no Hero Academia - Mina</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-quarter">
+          <div class="w3-card w3-white">
+            <%= image_tag("fig_reaper.png", size: "192x256") %>
+            <div class="w3-container card-title-min">
+              <h4>Overwatch - Reaper</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-quarter">
+          <div class="w3-card w3-white">
+            <%= image_tag("fig_loki.png", size: "192x256") %>
+            <div class="w3-container card-title-min">
+              <h4>Marvel - Loki</h4>
+            </div>
+          </div>
+        </div>
+
       </div>
 
-      <div class="w3-quarter">
-        <%= image_tag("stage2.png", size: "128x128", class: "w3-circle w3-hover-opacity") %>
-        <h3>Ensamble y sellado</h3>
-      </div>
+      <div class="w3-container w3-padding-64 w3-center">
 
-      <div class="w3-quarter">
-        <%= image_tag("stage3.png", size: "128x128", class: "w3-circle w3-hover-opacity") %>
-        <h3>Capa primer</h3>
-      </div>
+        <div class="w3-quarter">
+          <div class="w3-card w3-white">
+            <%= image_tag("fig_widow.png", size: "192x256") %>
+            <div class="w3-container card-title-min">
+              <h4>Overwatch - Widowmaker</h4>
+            </div>
+          </div>
+        </div>
 
-      <div class="w3-quarter">
-        <%= image_tag("stage4.png", size: "128x128", class: "w3-circle w3-hover-opacity") %>
-        <h3>Pintura base</h3>
+        <div class="w3-quarter">
+          <div class="w3-card w3-white">
+            <%= image_tag("fig_scissorhand.png", size: "192x256") %>
+            <div class="w3-container card-title-min">
+              <h4>Tim Burton - Edward Scissorhand</h4>
+            </div>
+          </div>
+        </div>
+
       </div>
 
     </div>
-    
+
   </div>
 </div>
 
