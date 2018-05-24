@@ -26,3 +26,42 @@ body{
 .card-title-min{
   min-height: 100px !important;
 }
+
+@media only screen and (max-width: 1024px) {
+  
+  .fig-img{
+    width: 144px !important;
+    height: 192px !important;
+  }
+
+  .work-img{
+    width: 192px !important;
+    height: 96px !important;
+  }
+
+  .work-title{
+    font-size: 21px !important;
+  }
+
+  .work-descrip{
+    font-size: 15px !important;
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+  .work-img{
+    width: 128px !important;
+    height: 64px !important;
+  }
+
+  .work-title{
+    font-size: 14px !important;
+  }
+
+  .work-descrip{
+    font-size: 12px !important;
+  }
+
+}
