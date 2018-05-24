@@ -27,18 +27,7 @@ body{
   min-height: 100px !important;
 }
 
-@media only screen and (max-width: 1024px) {
-  
-  .fig-img{
-    width: 144px !important;
-    height: 192px !important;
-  }
-
-  .work-img{
-    width: 192px !important;
-    height: 96px !important;
-  }
-
+@media only screen and (max-width: 1280px) {
   .work-title{
     font-size: 21px !important;
   }
@@ -47,9 +36,18 @@ body{
     font-size: 15px !important;
   }
 
+  .work-img{
+    width: 192px !important;
+    height: 96px !important;
+  }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1024px) {
+  
+  .fig-img{
+    width: 144px !important;
+    height: 192px !important;
+  }
 
   .work-img{
     width: 128px !important;
@@ -63,5 +61,4 @@ body{
   .work-descrip{
     font-size: 12px !important;
   }
-
 }
